@@ -118,6 +118,59 @@ body {
 .navbar .nav-link:hover {
     color: var(--main-color);
 }
+
+
+.nav-item {
+  position: static;
+}
+
+.navbar {
+  position: relative;
+}
+
+.mega-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  background: white;
+  padding: 35px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  z-index: 1000;
+}
+
+.nav-item:hover .mega-menu {
+  display: grid;
+}
+
+.card-img{
+    height: 5rem;
+}
+
+.card-img-overlay{
+    background-image: linear-gradient(#601ac2aa);
+}
+
+.card-img-overlay1{
+    background-image: linear-gradient(#601ac285);
+}
+
+
+.property-card img{
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: .625rem;
+}
+
+.recources-icon{
+    background-color: #EDE9FE;
+    width: 1.875rem;
+    height: 1.875rem;
+}
 /* ================================navbar============================== */
 /* ================================hero============================== */
 

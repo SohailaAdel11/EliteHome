@@ -449,6 +449,34 @@ select:focus,
 .offer-btn-blue:hover{
     background-color: #241679 !important;
 }
+
+.nav-tabs .nav-link:focus{
+    border: none !important;
+}
+
+
+
+
+
+
+
+.nav-tabs .nav-link {
+    border: none !important;
+    border-bottom: 3px solid transparent !important;
+    transition: 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #F5F3FF;
+    color: var(--main-color);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #F5F3FF !important;
+    color: var(--main-color) !important;
+    border-bottom: 3px solid var(--main-color) !important;
+}
+
 /* ===================================nav and tab============================== */
 
 /* ===================================faq============================== */

@@ -72,7 +72,57 @@ body {
     font-size: 0.625rem !important;
   }
 }
+/* ================================navbar============================== */
+
+
+
+.navbar .nav-link {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 0;
+    border: none !important;
+}
+
+
+.navbar .dropdown-toggle::after {
+    display: none !important;
+}
+
+
+.navbar .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--main-color);
+    transition: width 0.4s ease;
+}
+
+
+.navbar .nav-link:hover::before  {
+    width: 100%;
+}
+
+
+.navbar .dropdown:hover  .dropdown-toggle::before {
+    width: 100%;
+}
+
+
+
+
+.navbar .nav-link:hover {
+    color: var(--main-color);
+}
+/* ================================navbar============================== */
 /* ================================hero============================== */
+
+
+
 .hero-bg {
   background-image: url(../Images/hero-bg-img.png);
   width: 100%;

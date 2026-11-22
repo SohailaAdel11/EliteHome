@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+
+    .hero .hero-container .container .hero-form{
+    width: 100% !important;
+}
+
+.hero .hero-container .hero-header h2{
+    font-size: 3rem;
+}
+
+.section-header h2{
+    font-size: 1.875rem !important;
+}
+  
+
+.properties-card{
+    width: 100%;
+}
+}
+
+@media (max-width: 62.5rem) {
+
+    .properties-card{
+    width: 80%;
+    margin: auto;
+}
+
+.carsouel-details p{
+    font-size: 1.125rem;
+    
+}
+
+.carsouel-footer{
+    justify-content: center;
+    text-align: center;
+}
+
+
+}
